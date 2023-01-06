@@ -13,7 +13,10 @@ var radios = document.getElementsByName('op');
                 break
             case '4':
                 document.getElementById('cnt1').style.marginTop = "-195.5%"
-                
+                break
+            case '5':
+                document.getElementById('cnt1').style.marginTop = "-260.6%";
+                break
         }
     }
 }
