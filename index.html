@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <title>PORTIFOLIO</title>
+</head>
+<body>
+    
+    <div class="w-100 h-100 d-flex bgcolor">
+
+        <!-- infos e botões -->
+        <div class="infos">
+
+            <!-- foto -->
+            <div class="user bg-dark rounded-4">
+                <div class="rounded-circle overflow-hidden foto bg-light">
+                    <!-- <img src="/assets/eu.jpg" alt="" class="img-fluid"> -->
+                </div>
+                <div class="text-center">
+                    <div class="h5 fw-bold nome m-0">Eduardo Henrique</div>
+                    <div class="opacity-50 ">Developer</div>
+                </div>
+            </div>
+
+            <!-- botoes -->
+            <div class="btt bg-dark rounded-4 d-flex flex-column p-4">
+
+                <!-- sobre -->
+                <input type="radio" name="op" id="sobre" class="rd" value="1">
+                <label for="sobre" class="label rounded-pill mb-3">
+                    <img src="https://img.icons8.com/ios-filled/1024/b2a3ff/user.png" alt="" class="img-fluid me-3" width="12%">
+                    Sobre
+                </label>
+
+                <!-- Portifolio -->
+                <input type="radio" name="op" id="portifolio" value="2" class="rd">
+                <label for="portifolio" class="label rounded-pill mb-3">
+                    <img src="https://img.icons8.com/ios-glyphs/1024/b2a3ff/product-documents--v1.png" alt="" class="img-fluid me-3" width="12%">
+                    Portifólio
+                </label>
+
+                <input type="radio" name="op" id="certificados" value="3" class="rd">
+                <label for="certificados" class="label rounded-pill mb-3">
+                    <img src="https://img.icons8.com/ios-glyphs/1024/b2a3ff/contract.png" alt="" class="img-fluid me-3" width="12%">
+                    Certificados
+                </label>
+
+                <input type="radio" name="op" id="email" value="4" class="rd">
+                <label for="email" class="label rounded-pill mb-3">
+                    <img src="https://img.icons8.com/ios-glyphs/1024/b2a3ff/filled-message.png" alt="" class="img-fluid me-3" width="12%">
+                    E-mail
+                </label>
+            </div>
+
+            <!-- redes -->
+            <div class="redes bg-dark rounded-4 d-flex align-items-center justify-content-evenly">
+                <a href="https://github.com/EduardoHrq" target="_blank" class="btn btn-outline-success w-25">
+                    <img src="https://img.icons8.com/sf-regular-filled/1024/b2a3ff/github.png" alt="" class="img-fluid">
+                </a>
+                <a href="https://www.linkedin.com/in/eduardohrq/" target="_blank" class="btn btn-outline-success w-25">
+                    <img src="https://img.icons8.com/sf-regular-filled/1024/b2a3ff/linkedin.png" class="img-fluid">
+                </a>
+            </div>
+
+        </div>
+
+
+        <!-- area do conteudo -->
+        <div class="content overflow-hidden d-flex align-items-center justify-content-center">
+
+
+            <div class="area px-4">
+                <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-between mb-3 cnt " id="cnt1">
+                    <!-- basic -->
+                    <div class="basic bg-dark rounded-4 p-3 d-flex">
+                        <div class="w-50 h-100 d-flex flex-column justify-content-evenly">
+                            <p class="h4 m-0 fw-bold">Eduardo Henrique Lima Silva</p>
+                            <p class="m-0">
+                                <strong>Idade:</strong> 20 anos
+                                <br>
+                                <strong>Nacionalidade:</strong> Brasileiro
+                                <br>
+                                <strong>Gênero:</strong> Masculino
+                            </p>
+                        </div>
+                        <div class="w-50 h-100 d-flex flex-column justify-content-evenly align-items-center">
+                            <p class="h5 w-100 m-0 fw-bold d-flex align-items-center justify-content-center">
+                                <img src="https://img.icons8.com/ios-filled/1024/b2a3ff/marker.png" alt="" class="img-fluid" width="5%">
+                                Endereço
+                            </p>
+                            <p class="m-0">
+                                <strong>Estado:</strong> Goiás
+                                <br>
+                                <strong>Cidade:</strong> Cidade Ocidental
+                                <br>
+                                <strong>Próximo:</strong> Brasília
+                            </p>
+                        </div>
+                    </div>
+    
+                    <!-- quadros -->
+                    <div class="w-100 h-50 d-flex justify-content-between">
+                        <!-- skills -->
+                        <div class="sk bg-dark h-100 rounded-4 p-3 d-flex flex-column justify-content-between">
+                            <div>
+                                <p class="mb-2 h5 fw-bold w-100 text-center">
+                                    Skills
+                                </p>                     
+                                <div class="d-flex flex-column align-items-center">
+                                    <div class="text-center d-flex">
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">Linux</p>
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">HTML - CSS</p>
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">JavaScript</p>
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">React</p>
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">Git - Github</p>
+                                    </div>
+                                    <div class="text-center d-flex">
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">Bootstrap</p>
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">Java</p>
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">JPA</p>
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">Spring</p>
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">Banco de dados</p>
+                                    </div>
+                                   <div class="text-center d-flex">
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">SQL</p>
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">Python</p>
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">Oficce</p>
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">SCRUM</p>
+                                    </div>
+                                </div>
+                            </div>
+                               
+                            <div>
+                                <p class="mb-2 h5 fw-bold w-100 text-center">
+                                    Idiomas
+                                </p>
+                                <div>
+                                    <div class="w-100 text-center d-flex justify-content-center">
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">Inglês</p>
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">Espanhol</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <p class="mb-2 h5 fw-bold w-100 text-center">
+                                    Algumas personalidades
+                                </p>
+                                <div>
+                                    <div class="w-100 text-center d-flex justify-content-center">
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">Lider</p>
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">Responsavel</p>
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">Criativo</p>
+                                        <p class="tp mx-2 bg-success rounded-pill p-1 px-2">Comunicativo</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+    
+                        </div>
+    
+                        <!-- Cursos -->
+                        <div class="sk bg-dark h-100 rounded-4 p-3">
+                            <p class="w-100 h5 fw-bold mb-2 text-center">
+                                Cursando
+                            </p>
+                            <div class="curso w-100 h-25 d-flex">
+                                <div class="h-100 w-25 d-flex justify-content-center align-items-center">
+                                    <img src="/assets/Vertical-Colorida1.png" alt="uniceplac" class="img-fluid" width="57%">
+                                </div>
+                                <div>
+                                    <p class="h6 fw-bold">Graduação em Engenharia de Software</p>
+                                    <p class="m-0">
+                                        <Strong>Local:</Strong> Uniceplac, Gama - DF
+                                        <br>
+                                        <strong>Inicio e Terminio:</strong> 01/2020 - 12/2024
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <p class="w-100 h5 fw-bold mt-3 mb-2 text-center">
+                                Concluidos
+                            </p>
+                            <div class="curso w-100 d-flex">
+                                <div class="w-100 d-flex flex-column align-items-center">
+                                    <div class="w-100 ps-4">
+                                        <p class="m-0 "><strong>Ensino Médio</strong> 
+                                            <br>
+                                            <Strong>Local:</Strong> Colégio Santo Antônio - Cidade Ocidental, GO
+                                        </p>
+                                    </div>
+                                    
+    
+                                    <div class="w-100 border my-2 opacity-50"></div>
+    
+                                    <div class="w-100 ps-4">
+                                        <p class="m-0"><strong>Curso de linux</strong> 
+                                            <br>
+                                            <Strong>Local:</Strong> Curso em Video - Curso online
+                                        </p>
+                                    </div>
+    
+                                    <div class="w-100 border my-2 opacity-50"></div>
+    
+                                    <p class="w-100 fw-bold text-center">...</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="obj w-100 bg-dark rounded-4"></div>
+                </div>
+    
+                <div class="bg-success w-100 h-100 d-flex flex-column align-items-center justify-content-between mb-3 cnt " id="cnt2">
+    
+                </div>
+
+                <div class="cert w-100 h-100 d-flex flex-column align-items-center justify-content-center mb-3 cnt " id="cnt3">
+                    <div class="w-100 h-100 d-flex justify-content-center align-items-xl-center p-2">
+                        <div class="bg-dark w-25 h-25 rounded-4 d-flex justify-content-center align-items-center">
+                            <a href="https://drive.google.com/file/d/1XigDCyY0z-ScvwCNNfLxpfgWtHmch-UG/view?usp=share_link" target="_blank" class="bt rounded-3 p-3">
+                                SCRUM
+                            </a>
+                        </div>
+    
+                        <div class="mx-3"></div>
+
+                        <div class="bg-dark w-25 h-25 rounded-4 d-flex justify-content-center align-items-center">
+                            <a href="https://drive.google.com/file/d/1q9MVUpao7JOvJzwjJWuFTMbsD4c0GVfJ/view?usp=share_link" class=" bt  rounded-3 p-3" target="_blank">
+                                Linux
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-100 h-100 d-flex flex-column align-items-center mb-3 cnt" id="cnt4">
+                    <div class="w-100 my-3 bg-dark rounded-4 d-flex align-items-center px-4 fw-bold" style="height: 15%;">
+                        <div class="w-50 d-flex align-items-center">
+                            <p class="m-0 me-3 p-3 rounded-3" style="background-color: #b2a3ff71;">para</p>
+                            eduardohenriq0612002+page@gmail.com
+                        </div>
+                        <div class="w-50 d-flex align-items-center justify-content-end">
+                            <button class="btn btn-light">COPIAR</button>
+                        </div>
+                    </div>
+
+                    <textarea class="w-100 rounded-4 overflow-hidden bg-dark p-4 text mb-3" placeholder="Escreva aqui o seu texto"></textarea>
+
+                    <div class="w-100 d-flex justify-content-center">
+                        <button class="w-75 btn btn-light d-flex justify-content-center">
+                            <div class="d-flex align-items-center justify-content-end text-dark fw-bold" style="width: 55%;">
+                                ENVIAR
+                            </div>
+                            <div class="d-flex justify-content-end" style="width: 45%;">
+                                <img src="https://img.icons8.com/ios-glyphs/1024/filled-sent.png" alt="" class="img-fluid" width="15%">
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

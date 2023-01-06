@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    color: #b2a3ff;
+    font-size: 1vw;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.bgcolor{
+    background-color: #101214;
+}
+
+.infos{
+    width: 22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content{
+    width: 78%;
+    height: 100%;
+}
+
+.user{
+    width: 85%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    letter-spacing: 0.1rem;
+    color: #b2a3ff;
+}
+
+.foto {
+    box-shadow: 0 0 0 5px rgb(0, 255, 0);
+    width: 37%;
+    height: 50%;
+    background-image: url("/assets/eu.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.btt{
+    width: 85%;
+    height: 50%;
+}
+
+.btt input{
+    display: none;
+}
+
+.label{
+    color: #b2a3ff;
+    width: 100%;
+    height: 10%;
+    background-color: #212529;
+    filter: brightness(120%);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    letter-spacing: 0.05rem;
+    transition: 0.5s ease-in-out;
+}
+
+.rd:checked + label{
+    filter: brightness(75%);
+    font-weight: bold;
+}
+
+.label:hover{
+    filter: brightness(200%);
+}
+
+.redes{
+    width: 85%;
+    height: 15%;
+}
+
+.area{
+    width: 98%;
+    height: 97%;
+    transform: translateX(-0.5%);
+    letter-spacing: 0.07rem;
+    transition: .5s;
+}
+
+.basic{
+    width: 100%;
+    height: 25%;
+    background-image: url("https://img.icons8.com/ios-filled/1024/cbcbcb/user.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.sk{
+    width: 49.5%;
+}
+
+.tp{
+    font-size: 0.8vw;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.obj{
+    height: 20%;
+}
+
+.cert{
+    background-image: url('https://img.icons8.com/ios-glyphs/1024/b2a3ff/contract.png');
+    background-size: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.bt{
+    background-color: #b2a3ff;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cnt{
+    transition: .5s;
+}
+
+.text{
+    height: 65%; 
+    resize: none;
+    outline: none;
+    border: none;
+}
