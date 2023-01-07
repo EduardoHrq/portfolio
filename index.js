@@ -3,19 +3,44 @@ var radios = document.getElementsByName('op');
     radios[radio].onclick = function() {
         switch(this.value){
             case '1':
-                document.getElementById('cnt1').style.marginTop = '0';
+                document.getElementById('cnt1').style.opacity = '1';
+                document.getElementById('cnt1').style.visibility = 'visible';
                 break
             case '2':
-                document.getElementById('cnt1').style.marginTop = '-65.25%';
+                document.getElementById('cnt1').style.opacity = '0';
+                document.getElementById('cnt1').style.visibility = 'hidden';
+                document.getElementById('cnt2').style.opacity = '1';
+                document.getElementById('cnt2').style.visibility = 'visible';
                 break
             case '3':
-                document.getElementById('cnt1').style.marginTop = '-130.5%';
+                document.getElementById('cnt1').style.opacity = '0';
+                document.getElementById('cnt1').style.visibility = 'hidden';
+                document.getElementById('cnt2').style.opacity = '0';
+                document.getElementById('cnt2').style.visibility = 'hidden';
+                document.getElementById('cnt3').style.opacity = '1';
+                document.getElementById('cnt3').style.visibility = 'visible';
                 break
             case '4':
-                document.getElementById('cnt1').style.marginTop = "-195.5%"
+                document.getElementById('cnt1').style.opacity = '0';
+                document.getElementById('cnt1').style.visibility = 'hidden';
+                document.getElementById('cnt2').style.opacity = '0';
+                document.getElementById('cnt2').style.visibility = 'hidden';
+                document.getElementById('cnt3').style.opacity = '0';
+                document.getElementById('cnt3').style.visibility = 'hidden';
+                document.getElementById('cnt4').style.opacity = '1';
+                document.getElementById('cnt4').style.visibility = 'visible';
                 break
             case '5':
-                document.getElementById('cnt1').style.marginTop = "-260.6%";
+                document.getElementById('cnt1').style.opacity = '0';
+                document.getElementById('cnt1').style.visibility = 'hidden';
+                document.getElementById('cnt2').style.opacity = '0';
+                document.getElementById('cnt2').style.visibility = 'hidden';
+                document.getElementById('cnt3').style.opacity = '0';
+                document.getElementById('cnt3').style.visibility = 'hidden';
+                document.getElementById('cnt4').style.opacity = '0';
+                document.getElementById('cnt4').style.visibility = 'hidden';
+                document.getElementById('cnt5').style.opacity = '1';
+                document.getElementById('cnt5').style.visibility = 'visible';
                 break
         }
     }

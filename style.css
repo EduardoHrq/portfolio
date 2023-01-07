@@ -13,6 +13,7 @@ body{
 }
 
 .bgcolor{
+    display: flex;
     background-color: #101214;
 }
 
@@ -54,6 +55,7 @@ body{
 .btt{
     width: 85%;
     height: 50%;
+    flex-direction: column;
 }
 
 .btt input{
@@ -85,6 +87,9 @@ body{
 .redes{
     width: 85%;
     height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .area{
@@ -93,6 +98,39 @@ body{
     transform: translateX(-0.5%);
     letter-spacing: 0.07rem;
     transition: .5s;
+}
+
+#cnt1{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+}
+
+#cnt2{
+    position: relative;
+    top: -100%;
+    z-index: 9;
+}
+
+#cnt3{
+    position: relative;
+    top: -200%;
+    z-index: 8;
+}
+
+#cnt4{
+    position: relative;
+    top: -300%;
+    z-index: 7;
+}
+
+#cnt5{
+    position: relative;
+    top: -400%;
+    z-index: 6;
 }
 
 .basic{
@@ -139,6 +177,7 @@ body{
 
 .cnt{
     transition: .5s;
+    background-color: #101214;
 }
 
 .text{
@@ -146,4 +185,113 @@ body{
     resize: none;
     outline: none;
     border: none;
+}
+
+.img1{
+    filter: blur(2px);
+    transition: .5s;
+}
+
+.img2{
+    filter: brightness(150%);
+    position: relative;
+    top: -56%;
+    transition: .5s;
+    z-index: 3;
+}
+
+.img3{
+    position: relative;
+    top: 0;
+    transition: .5s;
+    z-index: 3;
+}
+
+.img4{
+    filter: brightness(150%);
+    position: relative;
+    top: -56%;
+    transition: .5s;
+    z-index: 6;
+}
+
+.projbt{
+    border-radius: 10px;
+    box-shadow: 0 0 7px 2px #b2a3ff;
+    transition: .5s;
+}
+
+.projbt ~ a{
+    transition: .5s;
+}
+
+.projbt:hover{
+    box-shadow: none;
+}
+
+.projbt:hover + a{
+    opacity: 0;
+}
+
+.projbt:hover .img1{
+    filter: blur(0);
+}
+
+.projbt:hover .img2{
+    filter: brightness(100%);
+    box-shadow: none;
+    top: 0;
+}
+
+.projbt:hover .img3{
+    filter: brightness(100%);
+    box-shadow: none;
+    top: -56%;
+}
+
+.projbt:hover .img4{
+    filter: brightness(100%);
+}
+
+#cnt2{
+    background-image: url('https://img.icons8.com/ios-glyphs/1024/ffffffa9/product-documents--v1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+}
+
+@media screen and (max-width: 765px) {
+    .bgcolor{
+        flex-direction: column;
+    }
+
+    .infos{
+        flex-direction: row;
+        height: 7%;
+        width: 100%;
+        margin-top: 1%;
+    }
+    
+    .user{
+        display: none;
+    }
+
+    .redes{
+        display: none;
+    }
+
+    .btt{
+        width: 96%;
+        height: 100%;
+        flex-direction: row;
+    }
+
+    .label{
+        height: 100%;
+    }
+
+    .content{
+        width: 100%;
+        height: 93%;
+    }
 }
