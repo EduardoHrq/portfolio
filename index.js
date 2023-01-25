@@ -45,3 +45,16 @@ var radios = document.getElementsByName('op');
         }
     }
 }
+
+
+var txt = document.getElementById("email-txt").textContent.trim()
+function copiar() {
+    navigator.clipboard.writeText(txt)
+}
+
+function enviar(){
+    var email = txt
+    var assunto = "Vi seu site de portifolio hospedado no github e resolvi entrar em contato";
+    var corpo = document.getElementById("text-email").value
+    window.open("mailto:" + email + "?subject=" + assunto + "&body=" + corpo);
+}

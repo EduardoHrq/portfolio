@@ -43,7 +43,7 @@ body{
 }
 
 .foto {
-    box-shadow: 0 0 0 5px rgb(0, 255, 0);
+    box-shadow: 0 0 0 5px #b2a3ff;
     width: 37%;
     height: 50%;
     background-image: url("https://user-images.githubusercontent.com/57080830/214324578-84f5fa40-84ae-443b-aed8-2162d6a9c747.png");
@@ -73,6 +73,10 @@ body{
     padding: 0 20px;
     letter-spacing: 0.05rem;
     transition: 0.5s ease-in-out;
+}
+
+.label img{
+    margin-right: 20px;
 }
 
 .tmimg{
@@ -163,7 +167,7 @@ body{
 .tp{
     font-size: 0.8vw;
     font-weight: bold;
-    color: #ffffff;
+    color: #000000;
 }
 
 .imgc{
